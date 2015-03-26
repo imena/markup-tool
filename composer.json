@@ -13,16 +13,11 @@
     "require": {
         "php": ">=5.3.3",
         "silex/silex": "~1.2",
-        "twig/twig": "~1.18",
-        "symfony/twig-bridge": "~2.6",
-        "symfony/serializer": "3.0.*@dev",
-        "symfony/form": "~2.6",
-        "symfony/translation": "~2.6"
     },
     "autoload": {
         "psr-0": { 
             "InternetInvest\\MarkupTool": "src/" 
         }
     },
-    "version": "dev"
+    "minimum-stability": "dev"
 }

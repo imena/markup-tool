@@ -24,5 +24,10 @@
             "InternetInvest\\MarkupTool": "src/" 
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "scripts": {
+        "post-package-install": [
+            "InternetInvest\\MarkupTool\\Configuration::postPackageInstall"
+        ]
+    }
 }

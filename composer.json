@@ -20,7 +20,8 @@
         "symfony/translation": "~2.6"
     },
     "autoload": {
-        "psr-0": { "InternetInvest\\MarkupTool": "src/" }
-    },
-    "minimum-stability": "dev"
+        "psr-0": { 
+            "InternetInvest\\MarkupTool": "src/" 
+        }
+    }
 }

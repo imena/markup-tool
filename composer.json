@@ -26,7 +26,7 @@
     },
     "minimum-stability": "dev",
     "scripts": {
-        "post-package-install": [
+        "post-install-cmd": [
             "InternetInvest\\MarkupTool\\Configuration::postPackageInstall"
         ]
     }

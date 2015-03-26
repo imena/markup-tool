@@ -1,0 +1,24 @@
+{
+    "minimum-stability": "dev",
+    "name": "internet-invest/markup-tool",
+    "description": "The tool for dedicated markup on twig template",
+    "homepage": "https://imena.ua",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nikita Ushakov",
+            "email": "kitcat@imena.ua"
+        }
+    ],
+    "require": {
+        "silex/silex": "~1.2",
+        "twig/twig": "~1.18",
+        "symfony/twig-bridge": "~2.6",
+        "symfony/serializer": "3.0.*@dev",
+        "symfony/form": "~2.6",
+        "symfony/translation": "~2.6"
+    },
+    "autoload": {
+        "psr-0": { "InternetInvest": "src/" }
+    }
+}

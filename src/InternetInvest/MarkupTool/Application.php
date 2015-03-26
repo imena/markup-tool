@@ -25,6 +25,12 @@ class Application extends \Silex\Application
 //        "cache" => __DIR__ . '/tmp',
             ),
         ));
+        
+        $this->getTwig()->addFunction(new \Twig_SimpleFunction('asset', function ($asset) {
+            // implement whatever logic you need to determine the asset path
+
+            return sprintf('/assets/%s', ltrim($asset, '/'));
+        }));
 
         // подключаем генерацию ссылок
         $this->register(new UrlGeneratorServiceProvider());

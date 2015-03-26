@@ -15,7 +15,7 @@
         "silex/silex": "~1.2",
         "twig/twig": "~1.18",
         "symfony/twig-bridge": "~2.6",
-        "symfony/serializer": "3.0.*@dev",
+        "symfony/serializer": "3.0.*",
         "symfony/form": "~2.6",
         "symfony/translation": "~2.6"
     },
